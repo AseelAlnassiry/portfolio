@@ -1,0 +1,118 @@
+header {
+  height: 100vh;
+  padding: 7rem;  
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+.header-container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+// CTA
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  white-space: nowrap;
+}
+
+// HEADER SOCIALS
+.header-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: -15%;
+  bottom: 50%;
+  transform: translateY(25%);
+  gap: 0.8rem;
+  &::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+  }
+}
+
+// HEADER IMAGE
+.me-2 {
+  background: transparent;
+  clip-path: polygon(0 15%, 100% 15%, 100% 100%, 0% 100%);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50%);
+  transform: translateX(-50%);
+  top: 13rem;
+  margin-top: -2rem;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 0 0 50% 50%;
+}
+.me-1 {
+  background: linear-gradient(var(--color-primary), transparent);
+  clip-path: polygon(50% 30%, 100% 0, 100% 63%, 50% 100%, 0 65%, 0 0);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 3rem;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  img {
+    opacity: 0;
+  }
+}
+
+// SCROLL DOWN
+.scroll-down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+// MEDIA QUERIES (MEDIUM DEVICES)]
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .me-2 {
+    bottom: -5rem;
+  }
+}
+
+// MEDIA QUERIES (SMALL DEVICES)
+@media screen and (max-width: 768px) {
+  header {
+    height: 100vh;
+    padding: 3.5rem;
+    padding-top: 3.5vh;
+  }
+
+  .trickster {
+    position: absolute;
+    left: 50%;
+    bottom: 28rem;
+    width: 50vw;
+    transform: translateX(-50%);
+    height: 50vh;
+    top: 32vh;
+
+    .me-2 {
+      top: -5rem;
+    }
+
+    .me-1 {
+      margin-top: 0;
+    }
+  }
+  .header-socials {
+    display: none;
+  }
+}
