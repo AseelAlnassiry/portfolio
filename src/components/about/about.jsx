@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import ME from '../../assets/me-about.jpg';
 import { FiAward } from 'react-icons/fi';
-import { FiUsers } from 'react-icons/fi';
+import { SiLeetcode } from 'react-icons/si';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 const about = () => {
@@ -23,28 +23,26 @@ const about = () => {
             <div className='about-card'>
               <FiAward className='about-icon' />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>2+ Years Working/Learning</small>
             </div>
 
             <div className='about-card'>
-              <FiUsers className='about-icon' />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <SiLeetcode className='about-icon' />
+              <h5>Leetcode</h5>
+              <small>200+ Completed</small>
             </div>
 
             <div className='about-card'>
               <VscFolderLibrary className='about-icon' />
-              <h5>Experience</h5>
-              <small>80+ Completed</small>
+              <h5>Projects</h5>
+              <small>6+ Completed</small>
             </div>
           </div>
           <p id='about-main'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum eum cumque nihil laboriosam!
-            Distinctio expedita dolores, at nihil suscipit facilis, voluptatum, soluta incidunt voluptate a nisi commodi
-            dolor cumque?
+            I am a mechanical engineer turned software engineer. I have a long held a passion for math and software development. Priding myself on deligence and dedication, I would like to contribute to the ever changing world of technology.
           </p>
 
-          <a href="#contact" className='btn btn-primary' id='about-btn'>Lets Talk</a>
+          <a href="#contacts" className='btn btn-primary' id='about-btn'>Lets Talk</a>
         </div>
       </div>
     </section>

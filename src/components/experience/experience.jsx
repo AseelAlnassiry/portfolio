@@ -18,7 +18,7 @@ const experience = () => {
               </div> 
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Modern HTML5</small>
               </div>
             </div>
             <div className="experience-details">
@@ -26,8 +26,8 @@ const experience = () => {
                 <BsPatchCheck />
               </div> 
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>React</h4>
+                <small className="text-light">Hooks, Redux</small>
               </div>
             </div>
             <div className="experience-details">
@@ -35,8 +35,8 @@ const experience = () => {
                 <BsPatchCheck />
               </div> 
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>CSS</h4>
+                <small className="text-light">Responsive, Transitions</small>
               </div>
             </div>
             <div className="experience-details">
@@ -44,8 +44,8 @@ const experience = () => {
                 <BsPatchCheck />
               </div> 
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>SASS</h4>
+                <small className="text-light">Responsive, Transitions</small>
               </div>
             </div>
             <div className="experience-details">
@@ -53,8 +53,8 @@ const experience = () => {
                 <BsPatchCheck />
               </div> 
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Javascript</h4>
+                <small className="text-light">Queries, Effects</small>
               </div>
             </div>
           </div>
@@ -68,8 +68,8 @@ const experience = () => {
                 <BsPatchCheck />
               </div> 
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>NodeJS</h4>
+                <small className="text-light">Implementation, package management</small>
               </div>
             </div>
             <div className="experience-details">
@@ -77,8 +77,8 @@ const experience = () => {
                 <BsPatchCheck />
               </div> 
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>NPM</h4>
+                <small className="text-light">Including NPX</small>
               </div>
             </div>
             <div className="experience-details">
@@ -86,8 +86,8 @@ const experience = () => {
                 <BsPatchCheck />
               </div> 
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Express</h4>
+                <small className="text-light">MVC Routing</small>
               </div>
             </div>
             <div className="experience-details">
@@ -95,8 +95,8 @@ const experience = () => {
                 <BsPatchCheck />
               </div> 
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>MongoDB</h4>
+                <small className="text-light">Along with Mongoose</small>
               </div>
             </div>
             <div className="experience-details">
@@ -104,8 +104,8 @@ const experience = () => {
                 <BsPatchCheck />
               </div> 
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Python</h4>
+                <small className="text-light">Object oriented programming</small>
               </div>
             </div>
           </div>

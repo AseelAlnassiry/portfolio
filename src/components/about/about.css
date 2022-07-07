@@ -3,10 +3,8 @@
 }
 
 .about-container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 45% 50%;
-      grid-template-columns: 45% 50%;
+  grid-template-columns: 45% 50%;
   gap: 10%;
 }
 
@@ -15,7 +13,6 @@
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
-  display: -ms-grid;
   display: grid;
   place-items: center;
 }
@@ -23,26 +20,19 @@
 .about-me-image {
   border-radius: 2rem;
   overflow: hidden;
-  -webkit-transform: rotate(10deg);
-          transform: rotate(10deg);
-  -webkit-transition: var(--transition);
+  transform: rotate(10deg);
   transition: var(--transition);
 }
-
 .about-me-image:hover {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
 }
-
 .about-me-image img {
   aspect-ratio: 1/1;
 }
 
 .about-cards {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   margin-right: 10vw;
 }
@@ -53,18 +43,16 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  transition: var(--transition);
 }
-
 .about-card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
 }
-
 .about-card h5 {
   font-size: 1rem;
 }
-
 .about-card small {
   font-size: 0.9rem;
   color: var(--color-light);
@@ -86,18 +74,21 @@
   #about {
     padding: 2rem 5rem;
   }
+
   .about-cards {
     margin-right: 0;
   }
+
   .about-container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 0;
   }
+
   .about-me {
     width: 50%;
     margin: 2rem auto 4rem;
   }
+
   .about-content p {
     margin: 2rem 0 1rem;
     text-align: center;
@@ -105,46 +96,43 @@
   .about-content #about-btn {
     position: absolute;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
+
   #about-me-h2 {
     margin-bottom: 0;
   }
 }
-
 @media screen and (max-width: 768px) {
   #about {
     padding: 0.5rem;
     padding-top: -2rem;
   }
+
   #about-me-h2 {
     margin-bottom: 0;
   }
+
   .about-container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
     justify-items: center;
-    -ms-flex-line-pack: space-evenly;
-        align-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-content: space-evenly;
+    align-items: center;
     gap: 1rem;
   }
+
   .about-cards {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
     margin-right: 0;
   }
+
   .about-me {
     width: 50%;
     margin: 1rem auto 1rem;
   }
+
   #about-main {
     position: absolute;
     left: 0;
@@ -152,8 +140,8 @@
     text-align: center;
     font-size: 1rem;
   }
+
   #about-btn {
     display: none;
   }
-}
-/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=about.css.map */
